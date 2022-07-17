@@ -9,6 +9,7 @@ body {
   font-size: 1rem;
   color: hsl(0, 0%, 100%);
   box-sizing: border-box;
+  font-size: .85rem;
 }
 
 #error {
@@ -48,16 +49,8 @@ h2 {
   text-align: center;
 }
 
-.ltr-spcn {
-  letter-spacing: .2rem;
-}
-
 .mgn-lft {
   margin-left: .5rem;
-}
-
-.ltr-spcn-1 {
-  letter-spacing: .1rem;
 }
 
 button {
@@ -99,7 +92,7 @@ code {
   top: 1rem;
   right: 1rem;
   padding: .6rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .primary-nav{
@@ -224,7 +217,7 @@ main, .main {
 }
 
 .card-pix {
-  width: 7rem;
+  width: 5rem;
   padding: 1rem;
   background-color:  hsl(0 0% 100% / 0.5);
   border-radius: 3rem;
@@ -274,13 +267,13 @@ main, .main {
   aspect-ratio: 2;
 }
 
-.p-btn {
+.pjt-btn {
   display: flex;
   align-items: center;
 }
 
-.p-btn button {
-  padding: .6rem 1.5rem;
+.pjt-btn button {
+  padding: .6rem .9rem;
 }
 
 .lang {

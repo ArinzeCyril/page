@@ -14,11 +14,11 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/skill' element={<Skill />} />
-        <Route path='/project' element={<Project />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/page' element={<Home />} />
+        <Route path='/page/about' element={<About />} />
+        <Route path='/page/skill' element={<Skill />} />
+        <Route path='/page/project' element={<Project />} />
+        <Route path='/page/contact' element={<Contact />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       <Hire />

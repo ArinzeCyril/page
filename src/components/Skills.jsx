@@ -17,19 +17,19 @@ export default function Skills() {
   return (
     <main>
       <h1>My Skill Set</h1>
-      <p>
+      <p className='justify'>
         Since my journey into frontend development, I have come across and learnt 
         some useful tools including libraries that have been instumental to my 
         success as a frontend developer.
       </p>
-      <p>
+      <p className='justify'>
         I create responsive websites that are fast, easy to use and built with best
         practices. Currently, the main area of my expertise is frontend development,
         though I do a little bit of backend and database.
       </p>
-      <p>
+      <p className='justify'>
         My skillset are displayed below.
-      </p>
+      </p><br /><br />
       <div className='cards'>
         {mySkill}
       </div> 

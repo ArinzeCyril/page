@@ -45,11 +45,11 @@ export default function NavBar() {
       >
       </button>
       <div className="primary-nav ul" data-visible = {state.dataVisible}>
-        <Link onClick={colapse} to='/'>Home</Link>
-        <Link onClick={colapse} to='/about'>About</Link>
-        <Link onClick={colapse} to='/skill'>Skills</Link>
-        <Link onClick={colapse} to='/project'>Projects</Link>
-        <Link onClick={colapse} to='/contact'>Contacts</Link>
+        <Link onClick={colapse} to='/page'>Home</Link>
+        <Link onClick={colapse} to='/page/about'>About</Link>
+        <Link onClick={colapse} to='/page/skill'>Skills</Link>
+        <Link onClick={colapse} to='/page/project'>Projects</Link>
+        <Link onClick={colapse} to='/page/contact'>Contacts</Link>
       </div>
     </nav>
   )

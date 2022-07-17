@@ -6,7 +6,7 @@ export default function Hire() {
             open. whether you have a question or just want to say hi, i will
             try my best to get back to you!
         </p>
-        <a href="www.#.com"><button>Say Hello</button></a>
+        <a href="mailto:arinzecyril123@gmail.com"><button>Say Hello</button></a>
     </section>
   )
 }

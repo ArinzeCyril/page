@@ -25,7 +25,7 @@ export default function MyProjects({name, description, view, lang, id}) {
           <h2>{name} </h2>
           <p>{description}</p>
       </div>
-      <div className='flx-sp-in p-btn'>
+      <div className='flx-sp-in pjt-btn'>
         <a href={view}><button className='view-btn'>View Life</button></a>
         <p className='lang'>{lang}</p>
       </div>
