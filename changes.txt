@@ -1,0 +1,190 @@
+<section className="hire-section">
+        <h1>(What are you working on?)(Get In Touch)</h1>
+        <p>let's have a conversation! I'd love to 
+            hear about what you're working on and find
+            a way to work together.
+        </p>
+        <a href="www.#.com"><button>Chat</button></a>
+    </section>
+
+<p>I'm a frontend web developer focused on building
+            super fast and assessible human centered websites</p>
+
+
+
+    {
+        id: 3,
+        coverPix: '',
+        tittle: 'solo project',
+        name: 'green earth',
+        description: 'bussiness website for a consulting firm',
+        lang: 'html, css & js',
+        url: ''
+    },
+
+{
+        id: 1,
+        logo: 'html',
+        name: 'html',
+        description: 'hyper text markup language',
+        level: '95%'
+    },
+    {
+        id: 2,
+        logo: 'css',
+        name: 'css',
+        description: 'casscading style sheet',
+        level: '90%'
+    },
+    {
+        id: 3,
+        logo: 'js',
+        name: 'js',
+        description: 'javascript the web programming language',
+        level: '60%'
+    },
+    {
+        id: 4,
+        logo: 'react',
+        name: 'react',
+        description: 'javascript library for dynamic frontend development',
+        level: '80%'
+    },
+    {
+        id: 5,
+        logo: 'redux',
+        name: 'redux',
+        description: 'a state manager for react',
+        level: '40%'
+    },
+    {
+        id: 6,
+        logo: 'responsive',
+        name: 'responsive design',
+        description: 'website design that fits perfectly on either web or mobile display',
+        level: '95%'
+    },
+    {
+        id: 7,
+        logo: 'git',
+        name: 'git & github',
+        description: 'git repository hosting service',
+        level: '90%'
+    },
+    {
+        id: 8,
+        logo: 'cmd',
+        name: 'command line',
+        description: 'codes & commands used while working with terminal',
+        level: '85%'
+    },
+    {
+        id: 9,
+        logo: 'npm',
+        name: 'npm',
+        description: 'node package manager',
+        level: '85%'
+    },
+    {
+        id: 10,
+        logo: 'api',
+        name: 'restfull api',
+        description: 'database storage for web resources',
+        level: '60%'
+    },
+    {
+        id: 11,
+        logo: 'security',
+        name: 'security',
+        description: 'web security',
+        level: '80%'
+    },
+    {
+        id: 12,
+        logo: 'production',
+        name: 'production',
+        description: 'website deployment',
+        level: '90%'
+    },
+    {
+        id: 13,
+        logo: 'http',
+        name: 'http',
+        description: 'hypertext transfer protocol',
+        level: '45%'
+    },
+    {
+        id: 14,
+        logo: 'json',
+        name: 'json',
+        description: 'language used to communicate with the server',
+        level: '60%'
+    },
+    {
+        id: 15,
+        logo: 'node',
+        name: 'node.js',
+        description: 'backend js language',
+        level: '40%'
+    },
+    {
+        id: 16,
+        logo: 'express',
+        name: 'express.js',
+        description: 'node feamework that provides broad features for web and mobile application',
+        level: '29%'
+    },
+    {
+        id: 17,
+        logo: 'sql',
+        name: 'postgreSQL',
+        description: 'database coding and design',
+        level: '50%'
+    },
+
+{
+        id: 1,
+        coverPix: 'flyo',
+        tittle: 'solo project',
+        name: 'fylo',
+        description: 'This is a bussiness portfolio website template, that I created and it could be used for a tech company website',
+        lang: 'html & css',
+        url: 'https://arinzecyril.github.io/page/hi'
+    },
+    {
+        id: 2,
+        coverPix: 'foodmart',
+        tittle: 'solo project',
+        name: 'food mart',
+        description: 'This is a simple website for a resturant or an eatery.',
+        lang: 'html, css & js',
+        url: 'https://arinzecyril.github.io/page/hi'
+    },
+    {
+        id: 3,
+        coverPix: 'chess',
+        tittle: 'solo project',
+        name: 'chess board',
+        description: 'This is a fun projecti created. its basically a chess board with movable piece',
+        lang: 'html, css & js',
+        url: 'https://arinzecyril.github.io/page/hi'
+    },
+    {
+        id: 4,
+        coverPix: 'inputSearch',
+        tittle: 'solo project',
+        name: 'input event',
+        description: 'This is a program that gets inputs and adds it to a list',
+        lang: 'html, css & js',
+        url: 'https://arinzecyril.github.io/page/hi'
+    },
+    {
+        id: 5,
+        coverPix: 'inputForm',
+        tittle: 'solo project',
+        name: 'fylo form',
+        description: `This is an input form I created for the fylo wedsite`,
+        lang: 'html, css & js',
+        url: 'https://arinzecyril.github.io/page/hi'
+    },
+
