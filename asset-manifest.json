@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/page/static/css/main.4a651ee2.css",
+    "main.js": "/page/static/js/main.b715bed6.js",
+    "static/media/profile.png": "/page/static/media/profile.155ce72aee15de92a470.png",
+    "static/media/foodmart.png": "/page/static/media/foodmart.8f634a28bef20c5571ee.png",
+    "static/media/express.png": "/page/static/media/express.b928ff362625e7dbe177.png",
+    "static/media/flyo.png": "/page/static/media/flyo.eec05fde9cac456561cb.png",
+    "static/media/techBg.jpeg": "/page/static/media/techBg.a8cc84e379f6a12350bc.jpeg",
+    "static/media/chess.png": "/page/static/media/chess.0ee1aaba22871a92245f.png",
+    "static/media/http.png": "/page/static/media/http.71c5f7e9ad31e9be6c98.png",
+    "static/media/inputForm.png": "/page/static/media/inputForm.10e7963640dc0f6e1a87.png",
+    "static/media/inputSearch.png": "/page/static/media/inputSearch.2314ffc171b69919bcdd.png",
+    "index.html": "/page/index.html",
+    "main.4a651ee2.css.map": "/page/static/css/main.4a651ee2.css.map",
+    "main.b715bed6.js.map": "/page/static/js/main.b715bed6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a651ee2.css",
+    "static/js/main.b715bed6.js"
+  ]
+}
