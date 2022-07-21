@@ -36,12 +36,7 @@ export default function NavBar() {
       <button  
         className= {classes}
         area-expanded = {state.areaExpanded}
-        onClick = {
-          () => {
-            dispatch({type: "toggleNav"});
-            dispatch({type: "mobileNav"});
-          }
-        }
+        onClick = {colapse}
       >
       </button>
       <div className="primary-nav ul" data-visible = {state.dataVisible}>
