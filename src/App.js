@@ -16,11 +16,11 @@ function App() {
       <NavBar />
       <ScrollToTop>
         <Routes>
-          <Route exact path='/page' element={<Home />} />
-          <Route exact path='/page/about' element={<About />} />
-          <Route exact path='/page/skill' element={<Skill />} />
-          <Route exact path='/page/project' element={<Project />} />
-          <Route exact path='/page/contact' element={<Contact />} />
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/skill' element={<Skill />} />
+          <Route exact path='/project' element={<Project />} />
+          <Route exact path='/contact' element={<Contact />} />
           <Route exact path='*' element={<ErrorPage />} />
         </Routes>
       </ScrollToTop>
