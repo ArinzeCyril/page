@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/page/static/css/main.3fbb0ea0.css",
-    "main.js": "/page/static/js/main.c8bc9bbf.js",
+    "main.js": "/page/static/js/main.6f9655b2.js",
     "static/media/profile.png": "/page/static/media/profile.155ce72aee15de92a470.png",
     "static/media/foodmart.png": "/page/static/media/foodmart.8f634a28bef20c5571ee.png",
     "static/media/techBg.png": "/page/static/media/techBg.801d49ddb918863a140a.png",
@@ -13,10 +13,10 @@
     "static/media/inputSearch.png": "/page/static/media/inputSearch.2314ffc171b69919bcdd.png",
     "index.html": "/page/index.html",
     "main.3fbb0ea0.css.map": "/page/static/css/main.3fbb0ea0.css.map",
-    "main.c8bc9bbf.js.map": "/page/static/js/main.c8bc9bbf.js.map"
+    "main.6f9655b2.js.map": "/page/static/js/main.6f9655b2.js.map"
   },
   "entrypoints": [
     "static/css/main.3fbb0ea0.css",
-    "static/js/main.c8bc9bbf.js"
+    "static/js/main.6f9655b2.js"
   ]
 }
