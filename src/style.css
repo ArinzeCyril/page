@@ -100,14 +100,20 @@ code {
   flex-direction: column;
   gap: 2.5rem;
   inset: 0 0 0 25%;
-  background: hsl(0 0% 100% / 0.1);
-  backdrop-filter: blur(3.5rem);
+  background: hsl(216 53% 9% / 0.93);
   transform: translateX(100%);
   text-align: center;
   box-sizing: border-box;
   padding: min(30vh, 10rem) min(20vw, 2em);
   font-size: 2rem;
   letter-spacing: .2rem;
+}
+
+@supports (backdrop-filter: blur(3.5rem)) {
+  .primary-nav {
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(3.5rem);
+  }
 }
 
 .primary-nav[data-visible = 'true']{
@@ -135,7 +141,7 @@ main, .main {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('./images/techBg.jpeg');
+  background-image: url('./images/techBg.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -294,6 +300,10 @@ main, .main {
   justify-content: center;
   gap: 2rem;
   font-size: 1.5rem;
+}
+
+.footer-i a {
+  color: hsl(500, 60%, 50%);
 }
 
 footer {
