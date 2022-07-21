@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import NavBar from './NavBar'
 import ScrollToTop from './ScrollToTop'
 import Home from './pages/Home'
@@ -12,21 +12,21 @@ import ErrorPage from './pages/ErrorPage'
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <NavBar />
       <ScrollToTop>
         <Routes>
-          <Route path='/page' element={<Home />} />
-          <Route path='/page/about' element={<About />} />
-          <Route path='/page/skill' element={<Skill />} />
-          <Route path='/page/project' element={<Project />} />
-          <Route path='/page/contact' element={<Contact />} />
-          <Route path='*' element={<ErrorPage />} />
+          <Route exact path='/page' element={<Home />} />
+          <Route exact path='/page/about' element={<About />} />
+          <Route exact path='/page/skill' element={<Skill />} />
+          <Route exact path='/page/project' element={<Project />} />
+          <Route exact path='/page/contact' element={<Contact />} />
+          <Route exact path='*' element={<ErrorPage />} />
         </Routes>
       </ScrollToTop>
       <Hire />
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
