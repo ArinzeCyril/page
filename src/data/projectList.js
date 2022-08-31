@@ -24,7 +24,7 @@ export const ProjectList = [
         name: 'food mart',
         description: '',
         lang: 'html, css & js',
-        url: 'https://arinzecyril.github.io/page/hi'
+        url: 'https://arinzecyril.github.io/foodmart/'
     },
     {
         id: 4,

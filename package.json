@@ -1,8 +1,9 @@
 {
-  "name": "project1",
+  "name": "arinze_cyril",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://arinzecyril.github.io/page",
+  "author": "Arinze Cyril",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
