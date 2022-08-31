@@ -1,15 +1,24 @@
 export const ProjectList = [
     {
         id: 1,
+        coverPix: 'billSplitter',
+        tittle: 'solo project',
+        name: 'bill splitter',
+        description: '',
+        lang: 'react',
+        url: 'https://arinzecyril.github.io/billsplitter'
+    },
+    {
+        id: 2,
         coverPix: 'flyo',
         tittle: 'solo project',
         name: 'fylo',
         description: '',
         lang: 'html & css',
-        url: 'https://arinzecyril.github.io/page/hi'
+        url: 'https://arinzecyril.github.io/flyo'
     },
     {
-        id: 2,
+        id: 3,
         coverPix: 'foodmart',
         tittle: 'solo project',
         name: 'food mart',
@@ -18,7 +27,7 @@ export const ProjectList = [
         url: 'https://arinzecyril.github.io/page/hi'
     },
     {
-        id: 3,
+        id: 4,
         coverPix: 'chess',
         tittle: 'solo project',
         name: 'chess board',
@@ -27,7 +36,7 @@ export const ProjectList = [
         url: 'https://arinzecyril.github.io/page/hi'
     },
     {
-        id: 4,
+        id: 5,
         coverPix: 'inputSearch',
         tittle: 'solo project',
         name: 'input event',
@@ -36,7 +45,7 @@ export const ProjectList = [
         url: 'https://arinzecyril.github.io/page/hi'
     },
     {
-        id: 5,
+        id: 6,
         coverPix: 'inputForm',
         tittle: 'solo project',
         name: 'fylo form',

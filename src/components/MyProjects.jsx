@@ -1,3 +1,4 @@
+import billSplittr from '../images/billSplitter.png'
 import chess from '../images/chess.png'
 import inputSearch from '../images/inputSearch.png'
 import flyo from '../images/flyo.png'
@@ -7,14 +8,16 @@ import foodmart from '../images/foodmart.png'
 export default function MyProjects({name, description, view, lang, id}) {
   let pix = ''
     if (id === 1) {
-      pix = flyo
+      pix = billSplittr
     } else if (id === 2) {
-      pix = foodmart
+      pix = flyo
     } else if (id === 3) {
-      pix = chess
+      pix = foodmart
     } else if (id === 4) {
-      pix = inputSearch
+      pix = chess
     } else if (id === 5) {
+      pix = inputSearch
+    } else if (id === 6) {
       pix = inputForm
     }
   
