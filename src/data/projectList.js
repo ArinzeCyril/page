@@ -1,6 +1,15 @@
 export const ProjectList = [
     {
         id: 1,
+        coverPix: 'housemaster',
+        tittle: 'solo project',
+        name: 'house master',
+        description: '',
+        lang: 'react',
+        url: 'https://strong-praline-c0d40e.netlify.app/'
+    }, 
+    {
+        id: 2,
         coverPix: 'billSplitter',
         tittle: 'solo project',
         name: 'bill splitter',
@@ -9,7 +18,7 @@ export const ProjectList = [
         url: 'https://arinzecyril.github.io/billsplitter'
     },
     {
-        id: 2,
+        id: 3,
         coverPix: 'flyo',
         tittle: 'solo project',
         name: 'fylo',
@@ -18,7 +27,7 @@ export const ProjectList = [
         url: 'https://arinzecyril.github.io/flyo'
     },
     {
-        id: 3,
+        id: 4,
         coverPix: 'foodmart',
         tittle: 'solo project',
         name: 'food mart',
@@ -27,7 +36,16 @@ export const ProjectList = [
         url: 'https://arinzecyril.github.io/foodmart/'
     },
     {
-        id: 4,
+        id: 5,
+        coverPix: 'foodmenu',
+        tittle: 'solo project',
+        name: 'food menu',
+        description: '',
+        lang: 'html, css & js',
+        url: 'https://arinzecyril.github.io/foodmenu'
+    },
+    {
+        id: 6,
         coverPix: 'chess',
         tittle: 'solo project',
         name: 'chess board',
@@ -36,21 +54,30 @@ export const ProjectList = [
         url: 'https://arinzecyril.github.io/page/hi'
     },
     {
-        id: 5,
+        id: 7,
+        coverPix: 'colorflipper',
+        tittle: 'solo project',
+        name: 'color flipper',
+        description: '',
+        lang: 'html, css & js',
+        url: 'https://arinzecyril.github.io/colorflipper'
+    },
+    {
+        id: 8,
         coverPix: 'inputSearch',
         tittle: 'solo project',
         name: 'input event',
         description: '',
         lang: 'html, css & js',
-        url: 'https://arinzecyril.github.io/page/hi'
+        url: 'https://arinzecyril.github.io/page/inputevent'
     },
     {
-        id: 6,
-        coverPix: 'inputForm',
+        id: 9,
+        coverPix: 'bggenerator',
         tittle: 'solo project',
-        name: 'fylo form',
-        description: ``,
+        name: 'background generator',
+        description: '',
         lang: 'html, css & js',
-        url: 'https://arinzecyril.github.io/page/hi'
+        url: 'https://arinzecyril.github.io/page/bggenerator'
     },
 ]

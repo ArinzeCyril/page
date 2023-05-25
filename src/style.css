@@ -202,7 +202,7 @@ main, .main {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr ));
+  grid-template-columns: repeat(auto-fill, minmax(14rem,  1fr));
   justify-content: center;
   grid-gap: 1.5rem;
 }
@@ -311,4 +311,22 @@ footer {
   background-color: hsl(216, 53%, 9%);
   text-align: center;
   padding: 1rem;
+}
+
+
+
+@media (min-width: 500px) {
+  .cards {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  main > h1,
+  main > p,
+  .hire-section > p,
+  .main {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
 }
