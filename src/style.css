@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: hsl(218, 28%, 13%);
-  font-size: 1rem;
   color: hsl(0, 0%, 100%);
   box-sizing: border-box;
   font-size: .85rem;
@@ -114,6 +113,10 @@ code {
     background: hsl(0 0% 100% / 0.1);
     backdrop-filter: blur(3.5rem);
   }
+  .web-nav {
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(.2rem);
+  }
 }
 
 .primary-nav[data-visible = 'true']{
@@ -121,10 +124,38 @@ code {
   transform: translateX(0%);
   z-index: 9998;
 }
+.web-nav {
+  position: fixed;
+  display: none;
+  gap: 2.5rem;
+  background: hsl(216 53% 9% / 0.93);
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1rem;
+  letter-spacing: .2rem;
+  width: 100%;
+  padding: .2rem;
+  justify-content: center;
+  z-index: 9999;
+  top: 0;
+}
+
+.navs {
+  padding: .8rem;
+  border-radius: .5em;
+}
+
+.navs:hover {
+  background-color: hsl(215, 69%, 14%);
+}
 
 nav a {
   text-decoration: none;
   color: white;
+}
+
+.active {
+  background-color: hsl(219, 30%, 18%);
 }
 
 main, .main {
@@ -201,10 +232,16 @@ main, .main {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(14rem,  1fr));
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(14rem,  1fr)); */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* place-self: center; */
+  /* grid-gap: 1.5rem; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
   justify-content: center;
-  grid-gap: 1.5rem;
 }
 
 .card {
@@ -214,6 +251,7 @@ main, .main {
   background-color: hsl(219, 30%, 18%);
   padding: 1rem;
   border-radius: 1rem;
+  width: 14rem;
 }
 
 .card-content {
@@ -307,17 +345,42 @@ main, .main {
 }
 
 footer {
+  position: relative;
   margin: 0;
   background-color: hsl(216, 53%, 9%);
   text-align: center;
   padding: 1rem;
 }
 
+#react-syl {
+  color: rgb(152, 210, 248);
+ }
 
+@media (max-width: 450px) {
+  .card {
+    width: 100%;
+  }
+}
 
-@media (min-width: 500px) {
+@media (min-width: 660px) {
+  .mobile-nav-toggle {
+    display: none;
+  }
+  .web-nav {
+    display: flex;
+  }
+  .about-header,
+  .about-img {
+    margin-top: 2.5rem;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1em;
+  }
   .cards {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
   }
 

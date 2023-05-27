@@ -105,16 +105,16 @@ export default function MySkills({name, description, level, logo}) {
 
   return (
     <div className="card">
-        <div className='card-content'>
-            <div className='card-pix'>
-              <img src={pix} alt="" />
-            </div>
-            <h2>{name}</h2>
-            <p>{description} </p>
+      <div className='card-content'>
+        <div className='card-pix'>
+          <img src={pix} alt="" />
         </div>
-        <div className='level btm'>
-          <div style={myStyle} ></div>
-        </div>
+        <h2>{name}</h2>
+        <p>{description} </p>
+      </div>
+      <div className='level btm'>
+        <div style={myStyle} ></div>
+      </div>
     </div>
   )
 }

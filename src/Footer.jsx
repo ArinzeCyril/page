@@ -1,3 +1,5 @@
+import footReact from './images/icon/react.png';
+
 export default function Footer() {
   return (
     <footer>
@@ -18,7 +20,7 @@ export default function Footer() {
           <i className="fa-brands fa-facebook"></i>
         </a>
       </div>
-        <p>Made with 🖤 by Arinze Cyril</p>
+        <p>Made with 🖤 by Arinze Cyril && built with <span id='react-syl'>React.js </span></p>
     </footer>
   )
 }

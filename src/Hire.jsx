@@ -7,7 +7,8 @@ export default function Hire() {
           vision to life. Feel free to reach out to me through with the button 
           bellow, let's embark on this exciting journey together!
         </p>
-        <a href="mailto:arinzecyril123@gmail.com"><button>Say Hello</button></a>
+        <a href="mailto:arinzecyril123@gmail.com"><button>Text Me</button></a>
+        {/* <a href="mailto:arinzecyril123@gmail.com"><button>Say Hello</button></a> */}
     </section>
   )
 }

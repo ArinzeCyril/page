@@ -69,7 +69,7 @@ export const ProjectList = [
         name: 'input event',
         description: '',
         lang: 'html, css & js',
-        url: 'https://arinzecyril.github.io/page/inputevent'
+        url: 'https://arinzecyril.github.io/inputevent'
     },
     {
         id: 9,
@@ -78,6 +78,6 @@ export const ProjectList = [
         name: 'background generator',
         description: '',
         lang: 'html, css & js',
-        url: 'https://arinzecyril.github.io/page/bggenerator'
+        url: 'https://arinzecyril.github.io/bggenerator'
     },
 ]
