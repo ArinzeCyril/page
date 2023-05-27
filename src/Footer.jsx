@@ -1,5 +1,3 @@
-import footReact from './images/icon/react.png';
-
 export default function Footer() {
   return (
     <footer>
