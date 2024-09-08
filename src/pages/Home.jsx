@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <HeroSection />
       <div className='h-about-container'>
-          <img className='h-about-img' src={Profile} alt="" />
+          <img className='h-about-img' src={Profile} alt="my profile" />
       </div>
       <Abouts />
       <MainSkill />

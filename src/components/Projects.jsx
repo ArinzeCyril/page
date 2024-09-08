@@ -4,7 +4,7 @@ import { ProjectList } from '../data/projectList'
 export default function Projects() {
   const projects = ProjectList.map((projects, i) => {
     return(
-      <MyProjects 
+      <MyProjects
           key={ProjectList[i].id}
           id={ProjectList[i].id}
           cover={ProjectList[i].coverPix}

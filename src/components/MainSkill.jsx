@@ -4,7 +4,7 @@ import {mainSkill} from '../data/skillSet'
 export const MainSkill = () => {
     const listSkills = mainSkill.map((skills, i) =>{
         return (
-            <Myskills 
+            <Myskills
                 key={mainSkill[i].id}
                 logo={mainSkill[i].logo}
                 name={mainSkill[i].name}

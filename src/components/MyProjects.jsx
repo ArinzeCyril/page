@@ -1,39 +1,30 @@
-import housemaster from '../images/housemaster.png'
-import billSplittr from '../images/billSplitter.png'
-import chess from '../images/chess.png'
-import inputSearch from '../images/inputSearch.png'
-import flyo from '../images/flyo.png'
-import foodmart from '../images/foodmart.png'
-import foodmenu from '../images/foodmenu.png'
-import colorflipper from '../images/colorflipper.png'
-import bggenerator from '../images/bggenerator.png'
 
-export default function MyProjects({name, description, view, lang, id}) {
+
+export default function MyProjects({name, description, cover, view, lang, id}) {
   let pix = ''
-    if (id === 1) {
-      pix = housemaster
-    } else if (id === 2) {
-      pix = billSplittr
-    } else if (id === 3) {
-      pix = flyo
-    } else if (id === 4) {
-      pix = foodmart
-    } else if (id === 5) {
-      pix = foodmenu
-    } else if (id === 6) {
-      pix = chess
-    } else if (id === 7) {
-      pix = colorflipper
-    } else if (id === 8) {
-      pix = inputSearch
-    } else if (id === 9) {
-      pix = bggenerator
+    if (cover === "housemaster") {
+      pix = require("../images/housemaster.png")
+    } else if (cover === "billSplitter") {
+      pix = require('../images/billSplitter.png')
+    } else if (cover === "littleLemon") {
+      pix = require('../images/littleLemon.png')
+    } else if (cover === "lilting") {
+      pix = require('../images/lilting.png')
+    } else if (cover === "flyo") {
+      pix = require('../images/flyo.png')
+    } else if (cover === "foodmart") {
+      pix = require('../images/foodmart.png')
+    } else if (cover === "foodmenu") {
+      pix = require('../images/foodmenu.png')
+    } else if (cover === "blackJack") {
+      pix = require('../images/blackJack.png')
     }
-  
+
   return (
     <div className="card">
       <div className='card-content'>
-          <img className='project-pix' src={pix} alt="" />
+          <img className='project-pix' src={pix} alt={cover} />
+          
           <h2>{name} </h2>
           <p>{description}</p>
       </div>
